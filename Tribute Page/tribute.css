@@ -1,0 +1,172 @@
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+section {
+    margin: 1rem;
+}
+
+/* Styling the header section including the image, nav and overlaying text. */
+h1 {
+    font-family: cursive;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0;
+    padding: 10px 20px;
+    /* color: rgb(46, 46, 86); */
+    color: rgb(77, 77, 119);
+}
+
+header {
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(77, 77, 119);
+}
+
+
+#para1 {
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+
+}
+
+.cover {
+    display: flex;
+    height: 70vh;
+    background-image: url("images/notes.jpg");
+    background-size: cover;
+    margin: 0;
+    margin-bottom: 0.8rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Styling the navigation */
+nav {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+nav>span {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(77, 77, 119);
+    font-family: 'Times New Roman', Times, serif;
+
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+}
+
+/* Styling the first content section */
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2.5vh 2.5vw;
+    line-height: 2rem;
+    text-align: left;
+}
+
+.timeline {
+    width: 60vw;
+}
+
+aside {
+    /* height: 35vh; */
+    width: 30vw;
+    margin: 0px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+aside>p {
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 2.5rem;
+    background-color: #EAECE3;
+    border-radius: 25px;
+    box-shadow: 1rem 1rem 2rem #e2e0e0;
+    margin: 0px;
+    padding: 2rem;
+    /* for task */
+    padding-left: 20px;
+}
+
+
+/* Styling the second content section */
+
+.box-notable {
+    text-align: left;
+    width: 50%;
+}
+
+.image-container {
+    max-height: 70vh;
+    width: 50vw;
+    /* width: 50%;
+    height: auto; */
+    background-color: #EAECE3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    border-radius: 25px;
+    box-shadow: 1rem 1rem 2rem #e2e0e0;
+}
+
+img {
+    width: 50vw;
+    height: auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: top;
+}
+
+#image-caption {
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* Styling of footer */
+
+footer>div {
+    text-align: right;
+    display: inline-block;
+}
+
+footer {
+    font-size: 1rem;
+    text-align: right;
+    margin-top: 2rem;
+}
