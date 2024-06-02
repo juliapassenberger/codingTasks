@@ -1,0 +1,262 @@
+/* General Styling of the page */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.body-pikachu {
+    /* background-color: #f9d33d; */
+    background-color: #f7e61d;
+}
+
+#background {
+    height: 30rem;
+    width: 80vw;
+    background: url("pictures/pokemon.jpg") no-repeat top left fixed;
+    text-align: center;
+    margin: auto;
+    object-fit: contain;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Responsive sizing of the background image for larger screens */
+@media (1510px <=width <=2490px) {
+
+    #background {
+        height: 38rem;
+        width: 80vw;
+        background: url("pictures/pokemon.jpg") no-repeat top left fixed;
+        text-align: center;
+        margin: auto;
+        object-fit: contain;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+h3 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+form {
+    margin-top: 5vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+}
+
+#result {
+    border: 1px solid lightgray;
+    border-radius: 0.4rem;
+    margin-top: 2rem;
+    text-align: left;
+    min-height: 5rem;
+}
+
+#result>* {
+    padding-left: 2vw;
+}
+
+
+ul {
+    list-style-position: inside;
+    padding-left: 8vw;
+}
+
+div>div {
+    width: 60vw;
+}
+
+
+/* Search button styling */
+#searchButton {
+    display: inline-block;
+    border: 1px solid lightgray;
+    border-radius: 0.4rem;
+    padding: 0.3rem 2rem;
+    font-size: medium;
+}
+
+#searchButton:hover {
+    border: 1px solid #4378CD;
+    background-color: #EAF0FD;
+}
+
+#searchButton:active {
+    border: 1px solid #4378CD;
+    /* background-color: rgb(245, 242, 242); */
+    background-color: #F3F4F6;
+}
+
+
+/* Search field and result field styling */
+#searchField {
+    border: 1px solid lightgray;
+    padding: 0.3rem 2rem;
+    border-radius: 0.4rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+#initialText {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+
+#outer {
+    position: fixed;
+    top: 1%;
+    left: 3%;
+    width: 17vh;
+    height: 17vh;
+    border-radius: 50%;
+    background: linear-gradient(#af1010 0%, #f00202 50%, white 50%, rgb(222, 220, 220) 100%);
+    box-shadow: 3px 3px 30px 2px rgba(67, 66, 66, 0.211);
+    display: flex;
+    border-bottom: 1px solid rgb(222, 220, 220);
+    border-top: 1px solid #af1010;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner {
+    width: 4.8vh;
+    height: 4.8vh;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid rgb(87, 87, 87);
+    box-shadow: 0.5px 0.5px 3px 0.5px rgb(87, 87, 87);
+}
+
+
+
+/* Mini Pokeballs */
+.outer {
+    position: absolute;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    background: linear-gradient(#af1010 0%, #f00202 50%, white 50%, rgb(222, 220, 220) 100%);
+    box-shadow: 2px 2px 30px 2px rgba(67, 66, 66, 0.211);
+    display: flex;
+    border-bottom: 1px solid rgb(222, 220, 220);
+    border-top: 1px solid #af1010;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    width: 2.8vh;
+    height: 2.8vh;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid rgb(87, 87, 87);
+    box-shadow: 0.3px 0.3px 2px 0.3px rgb(87, 87, 87);
+}
+
+
+
+
+/* Positioning of smaller pokeballs */
+#outer2 {
+    transform: translate(40vw, 4vh);
+    position: absolute;
+    align-self: flex-end;
+    text-align: right;
+}
+
+#outer3 {
+    transform: translate(7vw, -30vh) rotate(-20deg);
+}
+
+#outer4 {
+    transform: translate(3vw, -40vh) rotate(-15deg);
+}
+
+#outer5 {
+    transform: translate(3vw, -20vh) rotate(-10deg);
+
+}
+
+/* Responsive sizing of pokeballs on smaller screens */
+@media (0px <=width <=770px) {
+
+    #background {
+        height: 25rem;
+        width: 80vw;
+        background: url("pictures/pokemon.jpg") no-repeat top left fixed;
+        text-align: center;
+        margin: auto;
+        object-fit: contain;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #outer {
+        position: fixed;
+        top: 1%;
+        left: 3%;
+        width: 12vh;
+        height: 12vh;
+        border-radius: 50%;
+        background: linear-gradient(#af1010 0%, #f00202 50%, white 50%, rgb(222, 220, 220) 100%);
+        box-shadow: 3px 3px 30px 2px rgba(67, 66, 66, 0.211);
+        display: flex;
+        border-bottom: 1px solid rgb(222, 220, 220);
+        border-top: 1px solid #af1010;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #inner {
+        width: 3vh;
+        height: 3vh;
+        background-color: white;
+        border-radius: 50%;
+        border: 0.8px solid rgb(106, 106, 106);
+        box-shadow: 0.5px 0.5px 3px 0.5px rgb(87, 87, 87);
+    }
+
+    /* Mini pokeballs */
+    .outer {
+        position: absolute;
+        width: 6vh;
+        height: 6vh;
+        border-radius: 50%;
+        background: linear-gradient(#af1010 0%, #f00202 50%, white 50%, rgb(222, 220, 220) 100%);
+        box-shadow: 2px 2px 30px 2px rgba(67, 66, 66, 0.211);
+        display: flex;
+        border-bottom: 1px solid rgb(222, 220, 220);
+        border-top: 1px solid #af1010;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner {
+        width: 2vh;
+        height: 2vh;
+        background-color: white;
+        border-radius: 50%;
+        border: 0.8px solid rgb(106, 106, 106);
+        box-shadow: 0.3px 0.3px 2px 0.3px rgb(87, 87, 87);
+    }
+}

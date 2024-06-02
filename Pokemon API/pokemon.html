@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find your Pokemon!</title>
+    <link rel="stylesheet" href="pokemon.css">
+</head>
+
+<body>
+
+
+
+    <div id="firstSection">
+
+        <!-- Header and background image at top of page -->
+        <div id="background">
+            <h1>Gotta Catch 'Em All!</h1>
+            <div class="outer" id="outer2">
+                <div class="inner" id="inner2"></div>
+            </div>
+        </div>
+
+        <!-- Large pokeball -->
+        <div id="outer">
+            <div id="inner"></div>
+        </div>
+
+        <!-- Mini pokeballs on the page -->
+        <div class="miniPokeballs">
+
+            <div class="outer" id="outer3">
+                <div class="inner" id="inner3"></div>
+            </div>
+            <div class="outer" id="outer4">
+                <div class="inner" id="inner4"></div>
+            </div>
+            <div class="outer" id="outer5">
+                <div class="inner" id="inner5"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container for api call -->
+    <div id="container">
+        <div>
+            <form>
+                <!-- Search field -->
+                <input type="text" id="searchField" placeholder="Enter pokemon name">
+                <div id="searchButton">Search</div>
+            </form>
+        </div>
+
+        <!-- Results box -->
+        <div id="result">
+            <p id="initialText">Search for a pokemon to get started.</p>
+        </div>
+
+    </div>
+    <script src="pokemon.js"></script>
+</body>
+
+</html>
