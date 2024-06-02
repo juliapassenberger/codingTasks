@@ -1,0 +1,10 @@
+/* Basic CSS styling for total price component */
+
+.total-price {
+    width: 8rem;
+    text-align: right;
+    font-size: 1.5rem;
+    align-self: flex-end;
+    margin-right: 3vw;
+    color: #495057;
+}

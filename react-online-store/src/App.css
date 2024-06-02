@@ -1,0 +1,23 @@
+/* General styling of the application */
+
+.App {
+  font-size: calc(10px + 2vmin);
+  background-image: radial-gradient(rgba(246, 242, 242, 0.7), rgba(231, 227, 221, 0.9));
+}
+
+/* Separate styling of background for the home page */
+.App-header-home {
+  min-height: 100vh;
+  background-image: url('./components/home/unsplash-lounge.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 25%;
+}
+
+/* CSS for content pages other than home */
+.heading-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}

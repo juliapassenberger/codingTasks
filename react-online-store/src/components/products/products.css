@@ -1,0 +1,118 @@
+/* CSS for products page */
+
+/* ________________GENERAL PAGE STYLING__________________ */
+.product-wrapper {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.product-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.product-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+
+/* ___________________PRODUCT CARDS_____________________ */
+
+.card {
+    margin-top: 1.5rem;
+    margin-left: 3vw;
+    border: none;
+}
+
+.card-image {
+    height: 40vh;
+    object-fit: cover;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.description {
+    font-size: 1rem;
+    height: 6rem;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+/* ___________________BUTTONS_____________________ */
+
+.cta-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
+}
+
+/* Buy button */
+#buy-button {
+    height: 37px;
+    padding: 0 1.3vw;
+    border: none;
+    background-color: #d56363;
+    color: rgb(246, 243, 240);
+    font-size: 1rem;
+}
+
+#buy-button:hover {
+    color: white;
+    transition: 0.15s;
+    background-color: #d56363e7;
+}
+
+#buy-button:active {
+    color: rgb(246, 243, 240);
+    background-color: #d56363f8;
+    transform: translateY(0.03rem);
+    transition: 0.08s;
+}
+
+/* Dropdown button */
+.dropdown-toggle {
+    height: 36px;
+}
+
+#dropdown-basic {
+    vertical-align: top;
+    border-color: #d56363;
+    color: black;
+}
+
+#dropdown-basic:hover {
+    border-color: #d56363;
+    background-color: #d56363;
+    color: rgb(246, 243, 240);
+}
+
+#dropdown-basic.show,
+dropdown-basic:active {
+    transform: translateY(0.03rem);
+    color: rgb(246, 243, 240);
+    transition: 0.1s;
+    background-color: #d56363f1;
+    border-color: #d56363f1;
+}

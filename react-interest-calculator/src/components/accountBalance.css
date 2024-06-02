@@ -1,0 +1,215 @@
+/* CSS for the interest calculator app */
+
+/* General settings */
+h2 {
+    font-size: medium;
+
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0.5vh;
+    margin-top: 1vh;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    display: flex;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Navigation styling */
+.nav-top {
+    width: 100%;
+    height: 6vh;
+    font-size: 0.8rem;
+    position: sticky;
+    text-align: right;
+    color: #373c46;
+}
+
+.navigation {
+    height: 100vh;
+}
+
+
+
+.tick-icon {
+    cursor: pointer;
+}
+
+/* Styling and Positioning for Balance component and sub-items */
+
+.parent-balance {
+    margin: auto;
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#balance {
+    width: 30vw;
+    margin: 3%;
+    padding: 3%;
+    padding-bottom: 0px;
+    margin-bottom: 0.2vh;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+#balance-description {
+    font-size: 1rem;
+    margin-bottom: 5%;
+
+}
+
+p {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+
+
+.balance-items {
+    padding: 3%;
+    width: calc(100%/3);
+}
+
+.balance-actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+button {
+    width: 10vw;
+    border-radius: 0.5vh;
+    border: none;
+    background-color: transparent;
+    border: 1px solid rgb(202, 200, 200);
+    color: rgb(226, 226, 226);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid white;
+    color: white;
+}
+
+
+/* Add/Withdraw Component CSS*/
+
+.default-input {
+    width: 100%;
+    height: 3.5vh;
+    border-radius: 0.5vh;
+    font-size: 1rem;
+    border: none;
+    text-align: center;
+}
+
+.add-withdraw-buttons {
+    width: 100%;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+    font-size: 1rem;
+}
+
+
+/* CSS for Add Interest Component */
+
+.calculate-interest {
+    font-size: 1rem;
+}
+
+.rates {
+    width: 15vw;
+    height: 3.5vh;
+    border-radius: 0.5vh;
+    text-align: center;
+}
+
+#interest-input {
+    border: none;
+}
+
+#fixed-rate {
+    display: inline-block;
+    border: 1px solid rgb(127, 126, 126);
+    background-color: #191c218c;
+    color: rgb(185, 185, 185);
+}
+
+.variable-interest {
+    margin-top: 2.5vh;
+}
+
+.icon-alignment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+
+/* CSS for 'Charge bank fees' Component */
+
+.toggle-button {
+    border: 1px solid rgb(202, 200, 200);
+    color: rgb(226, 226, 226);
+    width: 10vw;
+    height: 3.5vh;
+    border-radius: 0.5vh;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.toggle-options:hover {
+    border: 0.2px solid white;
+    color: white;
+}
+
+.toggle-options.active {
+    background-color: white;
+    border: 1.3px solid white;
+    color: #282c34;
+}
+
+.toggle-options {
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#percent {
+    border-right: 1px solid white;
+}
+
+#click-div {
+    display: flex;
+}

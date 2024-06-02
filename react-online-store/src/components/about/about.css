@@ -1,0 +1,58 @@
+/* CSS for the About page */
+
+
+/* General page styling */
+.about-page {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-top {
+    width: 75%;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-items {
+    width: 75%;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* CSS for images contained in the bootstrap figures */
+/* Top-page Shalour logo */
+#logo-large {
+    width: 40vw;
+    align-self: center;
+    margin: auto;
+}
+
+/* Container for images of the store */
+.store-images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vh;
+}
+
+/* Individual store images */
+.figure-image {
+    object-fit: cover;
+    margin: 2%;
+    height: 60vh;
+    max-height: 50vh;
+    width: 30vw;
+    border-radius: 0.4rem;
+    object-position: 20%;
+}
+
+/* Figure captions / descriptions */
+.figure-caption {
+    margin-top: 2.5rem;
+    text-align: justify;
+}

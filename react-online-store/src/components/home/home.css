@@ -1,0 +1,61 @@
+/* CSS for the Home page */
+
+/* Positioning of the home elements */
+.header-wrapper {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+    width: 30%;
+    background-color: #e7e4dcac;
+    border-radius: 5%;
+}
+
+
+/* Position & styling of elements in the log-in box */
+.login-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(64, 62, 62);
+}
+
+.login-input {
+    width: 100%;
+    height: 4vh;
+    padding: 0.7vh 1.6vw;
+    border-radius: 0.6vh;
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+/* Styling of button states */
+button {
+    border-radius: 0.5vh;
+    border: none;
+    background-color: transparent;
+    color: rgb(64, 62, 62);
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+button:hover {
+    color: white;
+}
