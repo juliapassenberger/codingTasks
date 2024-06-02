@@ -1,0 +1,59 @@
+/* CSS for the footer */
+
+.footer-container {
+    margin: auto;
+    text-align: center;
+    color: #808080;
+    font-size: 0.8rem;
+    width: 70%;
+}
+
+/* Social media links */
+.social-media {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    margin-bottom: 3vh;
+}
+
+a {
+    color: white;
+}
+
+
+/* Grid of other links */
+.other-links {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-template-rows: repeat(4, 2fr);
+    gap: 1rem;
+    text-align: left;
+    margin-bottom: 3vh;
+}
+
+/* Other information */
+.service-code {
+    border: 1px solid #808080;
+    width: 10vw;
+    height: 5vh;
+    margin-bottom: 3vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#inc {
+    text-align: left;
+    margin-bottom: 3vh;
+}
+
+#website-link {
+    margin-bottom: 3vh;
+}

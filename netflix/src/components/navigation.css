@@ -1,0 +1,49 @@
+/* CSS for the navigation bar */
+
+.Navbar {
+    color: white;
+    background-color: #0a0a0a;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    font-weight: 550;
+    padding: 1.2vh 4%;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    z-index: 999;
+}
+
+.primary-navigation {
+    display: flex;
+    background-color: none;
+    gap: 1.3vw;
+    align-items: center;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.secondary-navigation {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    z-index: 999;
+    cursor: pointer;
+}
+
+/* Defining the writing for the Netflix 'logo' */
+#logo {
+    color: #e50813;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+/* Background image for the account icon */
+#account {
+    background-image: url("./account.png");
+    height: 5vh;
+    width: 5vh;
+    border-radius: 0.5vh;
+    object-fit: cover;
+    background-size: cover;
+}
