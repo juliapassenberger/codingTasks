@@ -20,16 +20,13 @@ export default function ProductCards() {
     // Variable to track whether component is rendered for the first time
     const firstRender = useRef(true);
 
-    // Save colours stored in local storage
-    let storedColours = JSON.parse(localStorage.getItem('storedColours'));
-
 
     // useEffect hook for the first rendering of the page
     useEffect(() => {
 
-        // Update the state variable with the colours stored in local storage
-        setAllColours(storedColours);
-        console.log(storedColours);
+        // Update the state variable with the colours stored in local storage or {} when the local storage doesn't exist yet
+        setAllColours(JSON.parse(localStorage.getItem('storedColours')) || {});
+
     }, [])
 
 
@@ -95,7 +92,7 @@ export default function ProductCards() {
                 < Card key={product.id} className='card' style={{ width: '20rem' }
                 }>
                     {/* Fill card component with data of the mapped product */}
-                    <Card.Img className='card-image' variant="top" src={require(`./images/${product.image}`)} />
+                    <Card.Img className='card-image' variant="top" src={require(`./product-images/${product.image}`)} />
                     <Card.Body>
                         <Card.Title className='name'>{product.name}</Card.Title>
                         <Card.Text className='description'>
