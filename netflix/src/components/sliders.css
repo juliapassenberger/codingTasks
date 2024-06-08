@@ -23,9 +23,10 @@ h2 {
 
 /* Syling the individual images inside the carousel */
 .sliderItem {
-    padding-right: 2%;
+    padding-right: 2.5%;
     padding-top: 4.5%;
     padding-bottom: 2%;
+
 }
 
 img {
