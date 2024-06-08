@@ -36,7 +36,7 @@ function DynamicSlider({ sliderRows }) {
             {/* Iterate through the passed slider data array that holds objects containing the title and image links for the individual items for the carousel */}
             {sliderRows.map((row, id) => (
                 // Return the container that holds the individual carousels on the page
-                <div className="parent">
+                <div key={id} className="parent">
                     <h2 id={sliderRows.id}>{row.title}</h2>
 
                     {/* Imported carousel component with different settings */}
@@ -54,8 +54,8 @@ function DynamicSlider({ sliderRows }) {
                         {/* Iterate through the image links inside the slider data array for each carousel */}
                         {row.slides.map((picURL, picIndex) => (
                             // Display the images as elements in the carousel
-                            <div className="sliderItem">
-                                <img alt={row.title} src={picURL}></img>
+                            <div key={picIndex} className="sliderItem">
+                                <img alt={row.title} src={require(`../images/${picURL}`)}></img>
                             </div>
 
                         ))}

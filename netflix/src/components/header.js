@@ -14,11 +14,11 @@ function Header(props) {
             <header className='top-container'>
 
                 {/* Image for the header of the page */}
-                <img src={link} alt='film-banner'></img>
+                <img src={require(`../images/${link}`)} alt='film-banner'></img>
 
 
                 {/* Icons on the right: replay button and age restriction icon  */}
-                <div class='right-buttons'>
+                <div className='right-buttons'>
 
                     {/* Imported rotate icon for replay button */}
                     <div className='circle'>

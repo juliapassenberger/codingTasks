@@ -61,7 +61,8 @@ function Footer() {
             <div id='inc'>1997-2024 Netflix, Inc.</div>
 
             {/* Link to original Netflix page */}
-            <div id='website-link'>Link to original website: <a href='https://www.netflix.com/browse' target={'_blank'} rel="noreferrer"> https://www.netflix.com/browse </a> </div>
+            <div id='website-link'>Original website netflix.com used as a model for this project. All images from unsplash.com.</div>
+
 
         </div>
     )
