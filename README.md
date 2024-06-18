@@ -4,8 +4,8 @@ Here are a few of the tasks that I completed while taking the Full-Stack Web Dev
 Each task focuses on specific aspects of web development, so not every task will be a full-stack application with a complete implementation of front-end, back-end and UX/UI design. 
 
 ## Overview
-[1 Most recent work](https://github.com/juliapassenberger/codingTasks/blob/main/README.md#most-recent-work)
-[2 Initial bootcamp tasks](https://github.com/juliapassenberger/codingTasks/blob/main/README.md#initial-bootcamp-tasks)
+1. [Most recent work](https://github.com/juliapassenberger/codingTasks/blob/main/README.md#most-recent-work)   
+2. [Initial bootcamp tasks](https://github.com/juliapassenberger/codingTasks/blob/main/README.md#initial-bootcamp-tasks)
 
 ## Most recent work
 Here are some of my more recent projects that I completed towards the end of my bootcamp.
@@ -14,7 +14,7 @@ Here are some of my more recent projects that I completed towards the end of my 
 - **Task Goal:** Create a visually appealing online shop React application with a limited number of functional elements. 
 - **Focus Area:** React functional components, routing, state management with useState, useRef and local storage, integrate Bootstrap components.
 - **Limitations:** Functionalities such as user authentication/authorization, specific functionalities of online stores are not included.
-- Click the following link to see the application [deployed with Vercel](https://react-online-store-project.vercel.app/#/products), or go to the task folder.
+- Click the following link to see the application [deployed with Vercel](https://react-online-store-project.vercel.app), or go to the task folder.
 
 ### Netflix Lookalike
 - **Task Goal:** Re-create a single page of an existing website using React. 
