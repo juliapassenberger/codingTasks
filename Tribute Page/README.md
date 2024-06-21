@@ -24,7 +24,7 @@ Alternatively, go to this [website](https://html-preview.github.io/?url=https://
 
 ## Usage
 1. Open the HTML file or go to the above mentioned link.
-2. Read through the page if you're interested in learning about Ludwig van Beethoven
+2. Read through the page if you're interested in learning about Ludwig van Beethoven.   
    ![tribute page](tribute-page.png)
 
 
