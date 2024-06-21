@@ -1,70 +1,41 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Netflix Task
 
-## Available Scripts
+## Task Overview
 
-In the project directory, you can run:
+### Goal
+The goal of this task is to re-create a single page of an existing website (Netflix) using React, showcasing the ability to create functional components and utilize component libraries.
 
-### `npm start`
+### Focus Area
+- React Functional Components: Building the page using React functional components.
+- Component Libraries and Icons: Integrating component libraries and icons to enhance the design and functionality.
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Limitations: Limited interactivty - links, pop-ups, hover-overs etc. were out of scope.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Relevance
+Learning React is essential for modern web development, as it is widely used in the industry. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation Instructions
+- Clone or download this folder of the git repository.
+- Navigate to the root folder on your machine.
+- Open your terminal or command line and navigate to the netflix root folder.
+- Install dependencies required for this application with 'npm install'.
+- Use 'npm start' to run the app in the development mode.
+- Open [http://localhost:3000](http://localhost:3000) to view the application in your browser.
+- You can learn more about create-react-app in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Alternatively, click the following link to see the application deployed with Vercel [deployed with Vercel](https://netflix-lookalike-orcin.vercel.app).
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
+1. Open the application in your browser.
+2. Explore the Netflix lookalike app.
+   ![netflix landing](netflix-landing.png)
+4. Use the integrated carousel component to skip through images.
+   ![netflix carousel](netflix-carousel.png)
+   
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Credits
+Developer: Julia Passenberger
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
