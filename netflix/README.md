@@ -31,9 +31,9 @@ Alternatively, click the following link to see the application deployed with Ver
 ## Usage
 1. Open the application in your browser.
 2. Explore the Netflix lookalike app.
-   ![netflix landing](netflix-landing.png)
+   ![netflix-landing](netflix-landing.png)
 4. Use the integrated carousel component to skip through images.
-   ![netflix carousel](netflix-carousel.png)
+   ![netflix-carousel](netflix-carousel.png)
    
 
 ## Credits
