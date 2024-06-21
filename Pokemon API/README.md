@@ -25,10 +25,11 @@ Alternatively, go to this [website](https://html-preview.github.io/?url=https://
 ## Usage
 1. Open the HTML file or go to the above mentioned link.
 2. Enter a name of a Pokemon into the search field.
-   ![pokemon search](https://github.com/juliapassenberger/codingTasks/tree/main/Images/pokemon-search.png)
+   ![pokemon search](pokemon-search.png)
 4. Click 'Search' or 'Enter' to initiate the API call.
-   ![pokemon results](https://github.com/juliapassenberger/codingTasks/tree/main/Images/pokemon-results.png)
+   ![pokemon results](pokemon-results.png)
 6. Look at the results for the Pokemon below the search field.
+7. See if you can find the hidden egg when entering the name of a very specific pokemon.
 
 ## Credits
 Developer: Julia Passenberger
