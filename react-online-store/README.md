@@ -1,70 +1,47 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Online Store Task
 
-## Available Scripts
+## Task Overview
 
-In the project directory, you can run:
+### Goal
+The goal of this task is to create an multi-page application that mimics an online shop with a limited number of functional elements, demonstrating proficiency in React and Bootstrap.
 
-### `npm start`
+### Focus Area
+- React Functional Components: Building the application using functional components in React.
+- Routing: Implementing navigation between different pages of the application.
+- State Management: Using useState, useRef, global state and local storage to manage the state of the application.
+- Bootstrap Integration: Enhancing the visual appeal by integrating Bootstrap components.
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Limitations: Functionalities such as user authentication/authorization, specific functionalities of online stores are out of scope.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Relevance
+React is a powerful library for building dynamic user interfaces, and understanding state management is crucial for creating interactive applications. Using tools like useState, useRef, react global state, and local storage allows developers to manage the application state effectively. Integrating Bootstrap components helps in quickly building responsive and visually appealing interfaces.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation Instructions
+- Clone or download this folder of the git repository.
+- Navigate to the root folder on your machine.
+- Open your terminal or command line and navigate to the netflix root folder.
+- Install dependencies required for this application with 'npm install'.
+- Use 'npm start' to run the app in the development mode.
+- Open [http://localhost:3000](http://localhost:3000) to view the application in your browser.
+- You can learn more about create-react-app in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Alternatively, click the following link to see the application deployed with Vercel [deployed with Vercel](https://react-online-store-project.vercel.app).
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
+1. Open the application in your browser.
+2. Explore the pages of the online store app.
+3. On the 'Home' page, enter a name and observe how the component changes as a result (actual authentication is not implemented).
+   ![home-page](home-page.png)
+4. On the 'Products' page, use the drop-down options to change the colour of the drop-down writing. This information is managed with state variables and saved to local storage.
+   ![colour-dropdown](colour-dropdown.png)
+5. On the 'Products' page, use the 'Buy' button to add the price of the product to a total in the top-right corner across pages.
+   ![total-price](total-price.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Credits
+Developer: Julia Passenberger
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
