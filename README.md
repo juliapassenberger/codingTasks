@@ -6,6 +6,8 @@ Each task focuses on specific aspects of web development, so not every task will
 ## Overview
 1. [Most recent work](https://github.com/juliapassenberger/codingTasks/blob/main/README.md#most-recent-work)   
 2. [Initial bootcamp tasks](https://github.com/juliapassenberger/codingTasks/blob/main/README.md#initial-bootcamp-tasks)
+3. [Installation Instructions](https://github.com/juliapassenberger/codingTasks/blob/main/README.md#initial-bootcamp-tasks)
+4. [Credits](https://github.com/juliapassenberger/codingTasks/blob/main/README.md#initial-bootcamp-tasks)
 
 ## Most recent work
 Here are some of my more recent projects that I completed towards the end of my bootcamp.
@@ -34,21 +36,31 @@ Here are some of the earlier tasks when starting out with the bootcamp to showca
 ### Pokemon API
 - **Task Goal:** Use the Pokemon API and display results.
 - **Focus Area:** API calls with fetch() and parsing results. 
-- **Limitations:** Only functionalities relevant to the focus area implemented with some basic page design.
+- **Limitations:** Only functionalities relevant to the focus area were implemented with some basic page design.
 - Click the following link to see the [website](https://html-preview.github.io/?url=https://github.com/juliapassenberger/codingTasks/blob/main/Pokemon%20API/pokemon.html), or go to the task folder.
 
 ### Table of Elements
 - **Task Goal:** Create a responsive table of elements.
 - **Focus Area:** Responsive design with media queries.
-- **Limitations:** Only functionalities relevant to the focus area implemented with some basic page design.
+- **Limitations:** Only functionalities relevant to the focus area were implemented with some basic page design.
 - Click the following link to see the [website](https://html-preview.github.io/?url=https://github.com/juliapassenberger/codingTasks/blob/main/Table%20of%20Elements/elements-grid.html), or go to the task folder.
 
 ### Tribute Page
 - **Task Goal:** This was the first page I created using HTML and CSS - a tribute to Ludwig van Beethoven.
 - **Focus Area:** Use a variety of HTML and CSS functionalities to familiarize yourself with the two.
-- **Limitations:** As the task was to utilise different elements and styling, the page design is a little inconsistent.
+- **Limitations:** As the task asked to utilise different elements and styling, the page design is a little inconsistent.
 - Click the following link to see the [website](https://html-preview.github.io/?url=https://github.com/juliapassenberger/codingTasks/blob/main/Tribute%20Page/tribute.html), or go to the task folder.
 
+
+## Installation Instructions
+For all react applications follow these installation steps:
+- Go to the root folder of the react app.
+- In the terminal/command line, use "npm install" to install all dependencies required for the application.
+- Run "npm start" to start the development server.
+- Navigate to the indicated localhost in your browser to see the running app.
+
+## Credits
+All code was created by Julia Passenberger.
 
 
 
